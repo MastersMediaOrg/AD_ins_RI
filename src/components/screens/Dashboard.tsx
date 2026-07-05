@@ -1,7 +1,7 @@
 'use client'
 
 import Link from "next/link"
-import { TrendingUp, BookOpen, Users, Zap } from "lucide-react"
+import { TrendingUp, Users, Zap } from "lucide-react"
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } from "recharts"
 import { mockImpactMetrics, mockPapers, mockTrendingTopics, mockTimelineData, mockOutcomeDistribution } from "@/lib/mockData"
 
